@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ProximityAlarm</string>
+    <string name="addActivity_name">ProximityAlarm - 위치 추가</string>
+    <string name="removeActivity_name">ProximityAlarm - 위치 삭제</string>
+
+    <string name="preference_file_key">io.github.sogoesagain.proximityalarm.PREFERENCE_FILE_KEY</string>
+
+    <string name="location_list">근접 경보 위치 목록</string>
+    <string name="register_location">등록</string>
+    <string name="delete_location">삭제</string>
+
+    <string name="location_name">장소</string>
+    <string name="location_latitude">위도</string>
+    <string name="location_longitude">경도</string>
+    <string name="location_radius">반경</string>
+
+    <string name="current_location">현재 위치</string>
+    <string name="get_current_location">현재 위치 가져오기</string>
+
+    <string name="approach_alarm">%1$s에 접근중입니다.</string>
+    <string name="getout_alarm">%1$s에서 벗어납니다.</string>
+
+    <string name="input_warning">%1$s항목을 입력하세요.</string>
+    <string name="range_warning">입력한 %1$s값이 범위를 초과합니다.</string>
+    <string name="current_location_warning">현재 위치를 찾지못했습니다.</string>
+
+    <string name="add_alert">%1$s의 근접 경보를 등록하였습니다.</string>
+    <string name="add_all">이전에 저장한 위치들에 대해 근접 경보를 시작합니다.</string>
+    <string name="remove_alert">%1s의 근접 경보를 해제하였습니다.</string>
+    <string name="remove_all">모든 근접 경보를 해제하였습니다.</string>
+    <string name="find_fail">%1s은(는) 등록된 위치가 아닙니다.</string>
+    <string name="already_add">%1s은(는) 이미 등록된 장소입니다.</string>
+
+    <string name="permission_error">위치 접근 권한이 없습니다.</string>
+    <string name="location_max">최대 3개 위치등록이 가능합니다.</string>
+</resources>
