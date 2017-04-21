@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EncounterMonitor</string>
+
+    <string name="enable_discoverable">Enable Bluetooth Discoverable</string>
+    <string name="bluetooth_device_name">BT Device Name</string>
+    <string name="user_name">User Name</string>
+    <string name="register">Register BT Device and User</string>
+    <string name="start">Start Encounter Monitoring</string>
+    <string name="stop">Stop Encounter Monitoring</string>
+    <string name="view">View Encounter Log</string>
+    <string name="clear">Clear Encounter Log</string>
+
+    <string name="add_target">모니터링할 Bluetooth 장치와 사용자를 등록했습니다.</string>
+    <string name="clear_log">기존 Encounter기록을 삭제했습니다.</string>
+
+    <string name="cannot_use_bluetooth">애플리케이션을 사용하기 위해서는 블루투스를 활성화해야 합니다.</string>
+    <string name="disable_discoverable">사용자가 discoverable을 허용하지 않았습니다.</string>
+    <string name="do_not_register">블루투스 기기와 사용자를 등록하지 않았습니다.</string>
+    <string name="now_run_service">새로운 대상을 모니터링하려면 현재 모니터링을 중지하세요.</string>
+    <string name="no_service">현재 모니터링을 하고 있지 않습니다.</string>
+    <string name="input_warning">%1$s항목을 입력하세요.</string>
+    <string name="permission_error">위치 및 저장소 권한이 없습니다.</string>
+    <string name="location">위치</string>
+    <string name="storage">저장소 접근</string>
+</resources>
