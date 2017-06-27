@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ActivityTracker</string>
+    <string name="start_tracking">활동량 모니터를 시작합니다.</string>
+    <string name="finish_tracking">활동량 모니터를 종료합니다.</string>
+    <string name="permission_denied">"권한을 획득하지 못하였습니다."</string>
+    <string name="clear_log">"기록을 초기화합니다."</string>
+    <string name="now_monitoring">"이미 모니터링 하고 있습니다."</string>
+    <string name="dont_monitoring">"모니터링 하고있는 중이 아닙니다."</string>
+
+    <string name="renew_listview_Debug">리스트뷰 업데이트</string>
+</resources>
