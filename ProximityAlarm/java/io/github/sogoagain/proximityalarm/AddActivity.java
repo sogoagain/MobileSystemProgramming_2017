@@ -1,4 +1,4 @@
-package io.github.sogoesagain.proximityalarm;
+package io.github.sogoagain.proximityalarm;
 
 import android.Manifest;
 import android.content.Context;
@@ -17,7 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Created by sogoesagain on 2017. 3. 23..
+ * Created by sogoagain on 2017. 3. 23..
  * AddActivity
  * - 새롭게 근접 경보를 등록할 위치 정보를 사용자로부터 받는 액티비티.
  * - LocationListener 인터페이스를 구현함으로써 현재 위치값(위도, 경도)가 실시간으로 표시된다.
@@ -27,7 +27,7 @@ import android.widget.Toast;
  */
 public class AddActivity extends AppCompatActivity implements LocationListener {
     // 디버깅을 위한 로그 출력시 태그값
-    private static final String TAG = "sogoesagain_ADD";
+    private static final String TAG = "sogoagain_ADD";
 
     private String locationName;        // 장소명
     private double latitude, longitude; // 위도, 경도

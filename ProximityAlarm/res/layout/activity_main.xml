@@ -10,7 +10,7 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:orientation="vertical"
-        tools:context="io.github.sogoesagain.proximityalarm.MainActivity">
+        tools:context="io.github.sogoagain.proximityalarm.MainActivity">
 
     <TextView
             android:text="@string/location_list"

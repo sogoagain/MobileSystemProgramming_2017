@@ -1,4 +1,4 @@
-package io.github.sogoesagain.activitytracker;
+package io.github.sogoagain.activitytracker;
 
 /**
  * Created by K&Y on 2017-06-09.
@@ -29,7 +29,7 @@ import java.util.StringTokenizer;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "AT_MainActivity";
-    private static final String BROADCAST_ACTION_ACTIVITY = "io.github.sogoesagain.activity";
+    private static final String BROADCAST_ACTION_ACTIVITY = "io.github.sogoagain.activity";
     private final int MY_PERMISSIONS_REQUEST = 1;
     private boolean isPermitted = false;
 

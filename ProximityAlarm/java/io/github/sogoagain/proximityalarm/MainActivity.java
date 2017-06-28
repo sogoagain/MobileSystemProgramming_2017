@@ -1,4 +1,4 @@
-package io.github.sogoesagain.proximityalarm;
+package io.github.sogoagain.proximityalarm;
 
 import android.Manifest;
 import android.app.PendingIntent;
@@ -24,7 +24,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by sogoesagain on 2017. 3. 23..
+ * Created by sogoagain on 2017. 3. 23..
  * MainActivity
  * - 등록된 근접 경보들을 표시해주는 액티비티다.
  * - '등록'버튼, '삭제'버튼을 통해 근접 경보를 추가/삭제 하는 액티비티로 전환할 수 있다.
@@ -33,11 +33,11 @@ import java.util.Map;
  * - sharedPreferences를 통해 이전 실행 상태를 보관하고 불러온다.
  */
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "sogoesagain_MAIN";   // 디버깅을 위한 로그 출력시 태그값
+    private static final String TAG = "sogoagain_MAIN";   // 디버깅을 위한 로그 출력시 태그값
 
     // IntentFilter 생성시 사용 하는 문자열 상수
     // 액션이 ALERT_ACTION_NAME+"장소명"인 브로드캐스트 메시지를 받는다.
-    private static final String ALERT_ACTION_NAME = "io.github.sogoesagain.ProximityAlert";
+    private static final String ALERT_ACTION_NAME = "io.github.sogoagain.ProximityAlert";
     private final int MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
     private static final int LOCATION_TO_ADD = 1;       // AddActivity의 requestCode
     private static final int LOCATION_TO_REMOVE = 2;    // RemoveActivity의 requestCode

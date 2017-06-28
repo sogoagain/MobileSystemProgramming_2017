@@ -1,4 +1,4 @@
-package io.github.sogoesagain.proximityalarm;
+package io.github.sogoagain.proximityalarm;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 /**
- * Created by sogoesagain on 2017. 4. 1..
+ * Created by sogoagain on 2017. 4. 1..
  * ProximityAlertReceiver
  * - 근접 경보 발생 브로드캐스드를 수신하는 리시버.
  * - 전달받은 인텐트를 통해 근접 경보가 발생한 장소명을 알 수 있다.
@@ -17,7 +17,7 @@ import android.widget.Toast;
 
 public class ProximityAlertReceiver extends BroadcastReceiver {
     // 디버깅 Log 출력시 사용되는 태그
-    private static final String TAG = "sogoesagain_RECEIVER";
+    private static final String TAG = "sogoagain_RECEIVER";
 
     /**
      * onReceive(Context context, Intent intent)

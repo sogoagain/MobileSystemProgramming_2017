@@ -1,9 +1,9 @@
-package io.github.sogoesagain.proximityalarm;
+package io.github.sogoagain.proximityalarm;
 
 import java.io.Serializable;
 
 /**
- * Created by sogoesagain on 2017. 4. 1..
+ * Created by sogoagain on 2017. 4. 1..
  * UserLocation
  * - 장소에 대한 정보를 갖고있는 VO(Value Object) 클래스
  * - AddActivity에서 MainActivity로 인텐트를 통해 전달되므로 Serializable 인터페이스를 상속. (직렬화)

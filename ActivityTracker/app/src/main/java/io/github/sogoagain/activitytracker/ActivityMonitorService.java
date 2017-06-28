@@ -1,4 +1,4 @@
-package io.github.sogoesagain.activitytracker;
+package io.github.sogoagain.activitytracker;
 
 /**
  * Created by K&Y on 2017-06-09.
@@ -34,8 +34,8 @@ import static android.location.LocationManager.GPS_PROVIDER;
 
 public class ActivityMonitorService extends Service{
     private static final String LOG = "AT_MonitorService";
-    private static final String BROADCAST_ACTION_ACTIVITY = "io.github.sogoesagain.activity";
-    private static final String BROADCAST_ALARM = "io.github.sogoesagain.alarm";
+    private static final String BROADCAST_ACTION_ACTIVITY = "io.github.sogoagain.activity";
+    private static final String BROADCAST_ALARM = "io.github.sogoagain.alarm";
     private static final long ACTIVE_TIME = 1000;
     private static final long PERIOD_FOR_MOVING = 5000;
     private static final long PERIOD_INCREMENT = 5000;

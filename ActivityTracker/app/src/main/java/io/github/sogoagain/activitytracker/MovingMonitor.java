@@ -1,4 +1,4 @@
-package io.github.sogoesagain.activitytracker;
+package io.github.sogoagain.activitytracker;
 
 import android.content.Context;
 import android.hardware.Sensor;

@@ -1,4 +1,4 @@
-package io.github.sogoesagain.activitytracker;
+package io.github.sogoagain.activitytracker;
 
 /**
  * Created by K&Y on 2017-06-16.

@@ -1,4 +1,4 @@
-package io.github.sogoesagain.encountermonitor;
+package io.github.sogoagain.encountermonitor;
 
 import android.Manifest;
 import android.app.ActivityManager;
@@ -20,7 +20,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 /**
- * Created by sogoesagain on 2017. 4. 7..
+ * Created by sogoagain on 2017. 4. 7..
  * MainActivity
  * - 사용자 UI를 구성하여 모니터링할 블루투스 기기와 사용자 명을 입력받고, 모니터링을 실행하거나 중지할 수 있다.
  * 또한, 모니터링 기록을 확인하거나 지울 수 있다.

@@ -1,4 +1,4 @@
-package io.github.sogoesagain.encountermonitor;
+package io.github.sogoagain.encountermonitor;
 
 import android.app.Service;
 import android.bluetooth.BluetoothAdapter;
@@ -18,7 +18,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * Created by sogoesagain on 2017. 4. 7..
+ * Created by sogoagain on 2017. 4. 7..
  */
 public class MonitoringService extends Service {
     private static final String TAG = "MonitoringService";  // 디버깅을 위한 태그

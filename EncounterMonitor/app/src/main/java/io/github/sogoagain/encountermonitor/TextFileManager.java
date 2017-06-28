@@ -1,4 +1,4 @@
-package io.github.sogoesagain.encountermonitor;
+package io.github.sogoagain.encountermonitor;
 
 import android.os.Environment;
 import android.util.Log;
@@ -9,7 +9,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * Created by sogoesagain on 2017. 4. 7..
+ * Created by sogoagain on 2017. 4. 7..
  */
 public class TextFileManager {
     private static final String TAG = "TextFileManager";

@@ -1,4 +1,4 @@
-package io.github.sogoesagain.encountermonitor;
+package io.github.sogoagain.encountermonitor;
 
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -12,7 +12,7 @@ import java.util.Date;
 import java.util.LinkedList;
 
 /**
- * Created by sogoesagain on 2017. 4. 7..
+ * Created by sogoagain on 2017. 4. 7..
  * EncounterReceiver
  * - 아래 3개 액션에 해당하는 브로드캐스트를 수신하는 리시버 클래스
  * BluetoothDevice.ACTION_FOUND)
