@@ -1,5 +1,21 @@
 # Mobile System Programming
 
+## 프로젝트 개요
+
+- 팀구성: 개인
+- 배터리를 효율적으로 사용하는 모바일 센싱 프로그래밍 (총 3개 어플리케이션)
+  - ProximityAlarm: 위치기반 근접 경보 알림 어플리케이션
+  - EncounterMonitor: 블루투스를 이용해 특정 사람과 만났던 시간을 기록하는 어플리케이션
+  - ActivityTracker: 사용자 활동 모니터링 어플리케이션
+- Energy Efficient Sensing을 위한 센싱 알고리즘 설계
+- Battery Historian을 이용한 테스팅으로 알고리즘 최적화
+
+### 사용 기술
+
+- JAVA
+- Android
+- Energy Efficient Sensing
+
 ## 1. ProximityAlarm
 
 위치기반 근접 경보 알림 어플리케이션.
